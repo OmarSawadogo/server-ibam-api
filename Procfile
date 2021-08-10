@@ -1,1 +1,4 @@
-web: gunicorn myproject.wsgi
+web: gunicorn server.wsgi
+release: python manage.py makemigrations --noinput
+release: python manage.py migrate --noinput
+release: python manage.py collectstatic --noinput
