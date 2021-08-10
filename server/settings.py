@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-wly4-70tgf%59^65b*aw+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost","127.0.0.1","ibam_api.com"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1","https://server-api-ibam.herokuapp.com/"]
 
 
 # Application definition
